@@ -1,4 +1,4 @@
-update=06/09/18 17:32:36
+update=06/10/18 11:40:31
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,5 @@ LibName31=contrib
 LibName32=valves
 LibName33=F:/University/project2/_PCB DESIGN/SARA_BreakOut/uBlox
 LibName34=F:/University/project2/_PCB DESIGN/SARA_BreakOut/voltageInterface
+LibName35=F:/University/project2/_PCB DESIGN/SARA_BreakOut/BuckConverter
+LibName36=F:/University/project2/_PCB DESIGN/SARA_BreakOut/protection
