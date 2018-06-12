@@ -1,4 +1,4 @@
-update=06/10/18 11:40:31
+update=06/13/18 01:23:24
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,6 @@ LibName33=F:/University/project2/_PCB DESIGN/SARA_BreakOut/uBlox
 LibName34=F:/University/project2/_PCB DESIGN/SARA_BreakOut/voltageInterface
 LibName35=F:/University/project2/_PCB DESIGN/SARA_BreakOut/BuckConverter
 LibName36=F:/University/project2/_PCB DESIGN/SARA_BreakOut/protection
+LibName37=F:/University/project2/_PCB DESIGN/SARA_BreakOut/SIM_CARD
+LibName38=F:/University/project2/_PCB DESIGN/SARA_BreakOut/SMA_antenna
+LibName39=F:/University/project2/sara ublox/kicad-lib/SIM7100-6-1-15-00-X_REVA/SIM7100-6-1-15-00-X_REVA
