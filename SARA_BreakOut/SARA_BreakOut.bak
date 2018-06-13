@@ -785,7 +785,7 @@ U 1 1 5B1E4666
 P 6650 6850
 F 0 "J12" H 6650 6950 50  0000 C CNN
 F 1 "Batt_conn" H 6650 6650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6650 6850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6650 6850 50  0001 C CNN
 F 3 "" H 6650 6850 50  0001 C CNN
 	1    6650 6850
 	1    0    0    -1  
@@ -1623,14 +1623,6 @@ S 10150 4525 700  825
 U 5B20D219
 F0 "Batt_and_LEDs" 60
 F1 "Batt_and_LEDs.sch" 60
-F2 "rxd" I L 10150 4575 60 
-F3 "txd" I L 10150 4675 60 
-F4 "pwr_on" I L 10150 4775 60 
-F5 "v_int" I L 10150 4875 60 
-F6 "gpio1" I L 10150 4975 60 
-F7 "gpio6" I L 10150 5075 60 
-F8 "gpio5" I L 10150 5175 60 
-F9 "GND" I L 10150 5300 60 
 $EndSheet
 $Comp
 L Conn_01x01 J6
@@ -1692,36 +1684,5 @@ Text Label 4675 6825 0    60   ~ 0
 txd
 Text Label 4675 7100 0    60   ~ 0
 rxd
-Wire Wire Line
-	10150 4575 9850 4575
-Wire Wire Line
-	10150 4675 9825 4675
-Wire Wire Line
-	10150 4775 9825 4775
-Wire Wire Line
-	10150 4875 9825 4875
-Wire Wire Line
-	10150 4975 9825 4975
-Wire Wire Line
-	10150 5075 9825 5075
-Wire Wire Line
-	10150 5175 9825 5175
-Wire Wire Line
-	10150 5300 9825 5300
-Text Label 10050 4575 2    60   ~ 0
-rxd
-Text Label 10050 4675 2    60   ~ 0
-txd
-Text Label 10075 4775 2    60   ~ 0
-pwr_on
-Text Label 10025 4875 2    60   ~ 0
-v_int
-Text Label 10075 4975 2    60   ~ 0
-gpio1
-Text Label 10075 5075 2    60   ~ 0
-gpio6
-Text Label 10075 5175 2    60   ~ 0
-gpio5
-Text Label 10025 5300 2    60   ~ 0
-GND
+NoConn ~ 8050 3675
 $EndSCHEMATC
