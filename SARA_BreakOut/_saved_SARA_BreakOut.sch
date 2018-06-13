@@ -785,7 +785,7 @@ U 1 1 5B1E4666
 P 6650 6850
 F 0 "J12" H 6650 6950 50  0000 C CNN
 F 1 "Batt_conn" H 6650 6650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6650 6850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6650 6850 50  0001 C CNN
 F 3 "" H 6650 6850 50  0001 C CNN
 	1    6650 6850
 	1    0    0    -1  

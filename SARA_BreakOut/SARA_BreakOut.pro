@@ -1,4 +1,4 @@
-update=06/13/18 01:23:24
+update=06/13/18 12:01:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,13 @@ LibName36=F:/University/project2/_PCB DESIGN/SARA_BreakOut/protection
 LibName37=F:/University/project2/_PCB DESIGN/SARA_BreakOut/SIM_CARD
 LibName38=F:/University/project2/_PCB DESIGN/SARA_BreakOut/SMA_antenna
 LibName39=F:/University/project2/sara ublox/kicad-lib/SIM7100-6-1-15-00-X_REVA/SIM7100-6-1-15-00-X_REVA
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

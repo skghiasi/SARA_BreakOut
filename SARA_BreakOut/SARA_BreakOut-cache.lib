@@ -18,6 +18,25 @@ X OUT 5 550 150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Battery_Cell
+#
+DEF Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C
 #
 DEF C C 0 10 N Y 1 F N
@@ -79,6 +98,58 @@ S -50 5 0 -5 1 1 6 N
 S -50 50 50 -150 1 1 10 f
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
 X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_02x02_Odd_Even
+#
+DEF Conn_02x02_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 300 0 150 L 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_02x02_Top_Bottom
+#
+DEF Conn_02x02_Top_Bottom J 0 40 Y N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "Conn_02x02_Top_Bottom" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+X Pin_3 3 300 0 150 L 50 50 1 1 P
+X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
