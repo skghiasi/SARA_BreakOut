@@ -306,17 +306,6 @@ GND
 Text Label 5650 825  0    60   ~ 0
 3v8
 $Comp
-L C C9
-U 1 1 5B1CA0DF
-P 7775 3075
-F 0 "C9" H 7800 3175 50  0000 L CNN
-F 1 "100nF" H 7800 2975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7813 2925 50  0001 C CNN
-F 3 "" H 7775 3075 50  0001 C CNN
-	1    7775 3075
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C12
 U 1 1 5B1CA168
 P 8050 3075
@@ -609,39 +598,6 @@ F 3 "" H 7950 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
-U 1 1 5B1D7EAB
-P 8150 6075
-F 0 "C14" H 8175 6175 50  0000 L CNN
-F 1 "10nF" H 8175 5975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8188 5925 50  0001 C CNN
-F 3 "" H 8150 6075 50  0001 C CNN
-	1    8150 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 5B1D801C
-P 8350 6075
-F 0 "C16" H 8375 6175 50  0000 L CNN
-F 1 "10nF" H 8375 5975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8388 5925 50  0001 C CNN
-F 3 "" H 8350 6075 50  0001 C CNN
-	1    8350 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C18
-U 1 1 5B1D8081
-P 8550 6075
-F 0 "C18" H 8575 6175 50  0000 L CNN
-F 1 "10nF" H 8575 5975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8588 5925 50  0001 C CNN
-F 3 "" H 8550 6075 50  0001 C CNN
-	1    8550 6075
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C19
 U 1 1 5B1D80DC
 P 8750 6075
@@ -650,28 +606,6 @@ F 1 "10nF" H 8775 5975 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8788 5925 50  0001 C CNN
 F 3 "" H 8750 6075 50  0001 C CNN
 	1    8750 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C20
-U 1 1 5B1D813F
-P 8950 6075
-F 0 "C20" H 8975 6175 50  0000 L CNN
-F 1 "0.1uF" H 8975 5975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8988 5925 50  0001 C CNN
-F 3 "" H 8950 6075 50  0001 C CNN
-	1    8950 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C21
-U 1 1 5B1D81AA
-P 9150 6075
-F 0 "C21" H 9175 6175 50  0000 L CNN
-F 1 "0.1uF" H 9175 5975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9188 5925 50  0001 C CNN
-F 3 "" H 9150 6075 50  0001 C CNN
-	1    9150 6075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -694,17 +628,6 @@ F 1 "0.1uF" H 9575 5975 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9588 5925 50  0001 C CNN
 F 3 "" H 9550 6075 50  0001 C CNN
 	1    9550 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C25
-U 1 1 5B1D82E5
-P 9750 6075
-F 0 "C25" H 9775 6175 50  0000 L CNN
-F 1 "0.1uF" H 9775 5975 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9788 5925 50  0001 C CNN
-F 3 "" H 9750 6075 50  0001 C CNN
-	1    9750 6075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1285,8 +1208,6 @@ Connection ~ 7550 2925
 Connection ~ 7775 2925
 Connection ~ 8050 2925
 Connection ~ 8300 2925
-Wire Wire Line
-	7775 3225 8525 3225
 Connection ~ 8050 3225
 Connection ~ 8300 3225
 Wire Wire Line
@@ -1685,4 +1606,6 @@ txd
 Text Label 4675 7100 0    60   ~ 0
 rxd
 NoConn ~ 8050 3675
+Wire Wire Line
+	8050 3225 8525 3225
 $EndSCHEMATC
